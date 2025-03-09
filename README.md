@@ -50,15 +50,15 @@ npm install -g newman newman-reporter-htmlextra
 
 ### 3️⃣ **Run API Tests with Newman**
 ```sh
-newman run collections/MyCollection.postman_collection.json -r htmlextra
+newman run Postman/API-testing\ -\ Petstore\ API.postman_collection.json -r htmlextra
 ```
-After execution, an HTML report will be generated in the `reports/` folder.
+After execution, an HTML report will be generated in the `Postman/newman/` folder.
 
 ### 4️⃣ **Automate Tests in Jenkins**
 - Configure a Jenkins **Freestyle Project**.
 - Add a **Build Step** to execute the following command:
   ```sh
-  newman run collections/MyCollection.postman_collection.json -r htmlextra
+  newman run Postman/API-testing\ -\ Petstore\ API.postman_collection.json -r htmlextra
   ```
 - Set up post-build actions to display the report.
 
