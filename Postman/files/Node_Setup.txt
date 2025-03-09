@@ -1,0 +1,23 @@
+**Configuración de Node.js, NPM y Newman**
+
+## 1️⃣ **Instalar Node.js y NPM**
+1. Descargar e instalar [Node.js](https://nodejs.org/), que incluye NPM.
+2. Verificar la instalación:
+   ```sh
+   node -v
+   npm -v
+   ```
+
+## 2️⃣ **Instalar Newman y Reporter HTML Extra**
+1. Instalar Newman globalmente:
+   ```sh
+   npm install -g newman
+   ```
+2. Instalar `newman-reporter-htmlextra`:
+   ```sh
+   npm install -g newman-reporter-htmlextra
+   ```
+3. Verificar la instalación:
+   ```sh
+   newman -v
+   ```

@@ -1,0 +1,10 @@
+**Configuración de Postman y Exportación de la Colección**
+
+## 1️⃣ **Crear y Exportar la Colección en Postman**
+1. Abrir Postman y crear una nueva colección con las pruebas necesarias.
+2. Agregar las solicitudes y configurar los encabezados y cuerpos correctamente.
+3. Probar las solicitudes dentro de Postman para asegurarse de que funcionan correctamente.
+4. Exportar la colección en formato **JSON**:
+   - Ir a **Collections**.
+   - Seleccionar la colección y hacer clic en **Export**.
+   - Guardar el archivo en una carpeta accesible (ejemplo: `C:\Postman\`).

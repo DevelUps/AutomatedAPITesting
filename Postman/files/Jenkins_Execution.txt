@@ -1,0 +1,19 @@
+**Ejecución del Job en Jenkins**
+
+## 1️⃣ **Verificar versiones antes de ejecutar el Job**
+Antes de correr la prueba en Jenkins, asegurarse de que todas las herramientas están correctamente instaladas ejecutando:
+```sh
+node -v
+npm -v
+newman -v
+java -version
+```
+
+## 2️⃣ **Ejecutar el Job en Jenkins**
+1. Ir a **Jenkins** > **Seleccionar el Job**.
+2. Hacer clic en **Build Now** para ejecutar el Job manualmente.
+3. Verificar la salida en la **Consola de Jenkins**.
+
+## 3️⃣ **Revisar los Resultados**
+- Si el Job se ejecuta correctamente, los resultados de la prueba aparecerán en la consola.
+- Si se generó un reporte HTML, buscarlo en la carpeta de ejecución y abrirlo en un navegador.

@@ -1,0 +1,24 @@
+**Configuración de Jenkins y Creación del Job**
+
+## 1️⃣ **Instalar Java y Jenkins**
+1. Descargar e instalar **Java JDK 17**.
+2. Verificar la instalación:
+   ```sh
+   java -version
+   ```
+3. Descargar e instalar **Jenkins** desde [jenkins.io](https://www.jenkins.io/download/).
+4. Iniciar Jenkins y completar la configuración inicial.
+5. Instalar el plugin `Dashboard View` para visualizar reportes.
+
+## 2️⃣ **Crear un Job en Jenkins**
+1. Ir a **Jenkins** > **New Item** > **Freestyle Project**.
+2. Configurar el **job**:
+   - En la sección **Build**, agregar un paso **Ejecutar un comando de Windows** con:
+     ```sh
+     node -v
+     npm -v
+     newman -v
+     java -version
+     newman run "C:\Postman\mi_coleccion.postman_collection.json" -r htmlextra
+     ```
+3. Guardar y ejecutar el job.

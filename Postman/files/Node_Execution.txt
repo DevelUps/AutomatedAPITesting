@@ -1,0 +1,13 @@
+**Ejecución de Pruebas con Newman**
+
+## 1️⃣ **Ejecutar la colección con Newman**
+1. Abrir una terminal (CMD o PowerShell).
+2. Ejecutar la colección Postman exportada:
+   ```sh
+   newman run "C:\Postman\mi_coleccion.postman_collection.json"
+   ```
+3. Si se necesita generar un reporte HTML:
+   ```sh
+   newman run "C:\Postman\mi_coleccion.postman_collection.json" -r htmlextra
+   ```
+4. Verificar que el reporte se haya generado correctamente en la carpeta de ejecución.
