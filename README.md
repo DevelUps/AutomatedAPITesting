@@ -25,14 +25,10 @@ This project demonstrates **API test automation** using **Postman** for test cas
 ## 📂 **Project Structure**
 ```
 AutomatedAPITesting/
-│── collections/
-│   ├── MyCollection.postman_collection.json
-│   ├── MyEnvironment.postman_environment.json (optional)
-│── reports/
-│   ├── newman-report.html
-│── scripts/
-│   ├── run_tests.sh (Linux/Mac)
-│   ├── run_tests.bat (Windows)
+│── Postman/
+│   ├── API-testing - Petstore API.postman_collection.json
+│   ├── newman/ (Contains execution reports)
+│── files/ (Additional test resources)
 │── README.md
 ```
 
